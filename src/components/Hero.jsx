@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <div className="flex flex-col justify-center px-7 sm:px-10 lg:px-20 min-h-screen ">
       <Navbar />
-      <div className="flex flex-1 flex-col-reverse md:flex-row items-center justify-between mt-3 sm:mt-0  sm:px-10 lg:px-20 ">
+      <div className="flex flex-1 flex-col md:flex-row items-center justify-between mt-3 sm:mt-0  sm:px-10 lg:px-20 ">
         {/* data-aos="fade-left" */}
         <div className="sm:space-y-3  basis-[48%] text-left">
           <h1 className=" text-3xl md:text-4xl lg:text-5xl font-bold text-white">
@@ -53,7 +53,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="mt-1 mb-2 md:mb-0 sm:mt-7 lg:mt-12 basis-[48%]">
+        <div className=" sm:mt-7 lg:mt-12 basis-[48%]">
           <img src={profile} className="w-full max-w-md mx-auto rounded-xl" />
         </div>
       </div>
