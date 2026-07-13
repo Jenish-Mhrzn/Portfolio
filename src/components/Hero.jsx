@@ -18,10 +18,10 @@ const Hero = () => {
   //   return () => window.removeEventListener("load", handleLoad);
   // }, []);
   return (
-    <div className="flex flex-col justify-center px-10 lg:px-20 min-h-screen ">
+    <div className="flex flex-col justify-center px-3 sm:px-10 lg:px-20 min-h-screen ">
       <Navbar />
       <div
-        className="flex flex-1 flex-col md:flex-row items-center justify-between mt-3 sm:mt-0 p-2 px-6 sm:px-10 lg:px-20 "
+        className="flex flex-1 flex-col-reverse md:flex-row items-center justify-between mt-3 sm:mt-0 px-3 sm:px-10 lg:px-20 "
         
       >
         {/* data-aos="fade-left" */}
@@ -56,7 +56,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className=" sm:mt-7 lg:mt-12 basis-[48%]">
+        <div className="sm:mt-7 lg:mt-12 basis-[48%]">
           <img src={profile} className="w-full max-w-md mx-auto rounded-xl" />
         </div>
       </div>
