@@ -53,7 +53,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="mt-9 mb-7 md:mb-0 sm:mt-7 lg:mt-12 basis-[48%]">
+        <div className="mt-9 mb-5 md:mb-0 sm:mt-7 lg:mt-12 basis-[48%]">
           <img src={profile} className="w-full max-w-md mx-auto rounded-xl" />
         </div>
       </div>
