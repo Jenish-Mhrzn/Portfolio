@@ -8,15 +8,15 @@ import "aos/dist/aos.css"
 
 
 const Hero = () => {
-  useEffect(() => {
-    AOS.init({
-      duration:2000
-    })
-  },[])
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration:2000
+  //   })
+  // },[])
   return (
     <div className="flex flex-col justify-center px-10 lg:px-20 min-h-screen ">
       <Navbar />
-      <div className="flex flex-1 flex-col md:flex-row items-center justify-between mt-3 sm:mt-0 p-2 px-6 sm:px-10 lg:px-20 " data-aos="fade-left">
+      <div className="flex flex-1 flex-col md:flex-row items-center justify-between mt-3 sm:mt-0 p-2 px-6 sm:px-10 lg:px-20 " >
         <div className="space-y-3  basis-[48%] text-left">
           <h1 className=" text-3xl md:text-4xl lg:text-5xl font-bold text-white">
             Hi, I'm <span className="bg-gradient-to-r from-green-200 to-blue-400 text-transparent bg-clip-text" >Jenish Maharjan</span>

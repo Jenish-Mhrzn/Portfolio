@@ -4,11 +4,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Skills = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 2000,
+  //   });
+  // }, []);
   return (
     <div className="w-full sm:py-16 px-6 sm:px-10 lg:px-20 mb-8 " id="Skills">
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-white">
@@ -17,7 +17,7 @@ const Skills = () => {
 
       <p className="text-center text-gray-300 mt-2">Tools and Technologies</p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10" data-aos="fade-left">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10" >
         {Skill.map((category, index) => (
           <div
             key={index}
@@ -48,3 +48,4 @@ const Skills = () => {
 };
 
 export default Skills;
+// data-aos="fade-left"

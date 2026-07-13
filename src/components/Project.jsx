@@ -5,11 +5,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Project = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 2000,
+  //   });
+  // }, []);
   return (
     <div
       className="flex flex-col sm:py-16 px-6 sm:px-10 lg:px-20 mb-8 "
@@ -21,7 +21,7 @@ const Project = () => {
       <span className="text-center mt-3 font-semibold text-gray-300">
         Projects I've Built{" "}
       </span>
-      <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6" data-aos="fade-left">
+      <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
         {Projects.map((Project, index) => (
           <div
             key={index}
@@ -71,3 +71,4 @@ const Project = () => {
 };
 
 export default Project;
+//  data-aos="fade-left"

@@ -6,18 +6,18 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 const Education = () => {
-    useEffect(() => {
-    AOS.init({
-      duration:2000
-    })
-  },[])
+  //   useEffect(() => {
+  //   AOS.init({
+  //     duration:2000
+  //   })
+  // },[])
   return (
     <div className="flex  flex-col w-full py-16 px-6 sm:px-10 lg:px-20 mb-8" id="Education">
       <h1 className="text-center font-bold text-2xl sm:text-3xl lg:text-4xl tracking-wide text-white">
         Education
       </h1>
       <span className="text-center mt-2 text-gray-300">My Academic Background</span>
-      <div className="sm:mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6" data-aos="flip-up">
+      <div className="sm:mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6" >
         {Educations.map((edu, index) => (
           <div key={index} >
             <div className=" p-6 rounded-xl bg-teal-700 text-white text-md mt-9 lg:mt-10 shadow-xl hover:-translate-y-1">
@@ -43,3 +43,4 @@ const Education = () => {
 };
 
 export default Education;
+// data-aos="flip-up"

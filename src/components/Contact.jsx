@@ -11,11 +11,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Contact = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 1000,
+  //   });
+  // }, []);
   const [result, setResult] = useState("");
   const initalValues = { name: "", email: "", number: "", message: "" };
   const [formValues, setFormValues] = useState(initalValues);
@@ -98,7 +98,7 @@ const Contact = () => {
       <span className="text-center text-gray-300 font-semibold mt-2">
         Let's Connect
       </span>
-      <div className="mt-13 flex flex-col sm:flex-row justify-between " data-aos="fade-up">
+      <div className="mt-13 flex flex-col sm:flex-row justify-between " >
         <div className="flex flex-col space-y-3 basis-[48%]">
           <div className="flex gap-4 items-center">
             <h1 className="font-medium text-white text-2xl">Send Message</h1>
@@ -202,3 +202,4 @@ const Contact = () => {
 };
 
 export default Contact;
+// data-aos="fade-up"
