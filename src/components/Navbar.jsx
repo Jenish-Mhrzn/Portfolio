@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`sm:hidden fixed top-0 right-0 h-screen w-[35%] bg-teal-700 backdrop-blur-lg transition-transform duration-300 ${
+        className={`sm:hidden fixed top-0 right-0 h-dvh w-[35%] bg-teal-700 backdrop-blur-lg transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >

@@ -8,6 +8,11 @@ const Skills = () => {
   //   AOS.init({
   //     duration: 2000,
   //   });
+
+  //   const handleLoad = () => AOS.refresh();
+  //   window.addEventListener("load", handleLoad);
+
+  //   return () => window.removeEventListener("load", handleLoad);
   // }, []);
   return (
     <div className="w-full sm:py-16 px-6 sm:px-10 lg:px-20 mb-8 " id="Skills">
@@ -17,7 +22,8 @@ const Skills = () => {
 
       <p className="text-center text-gray-300 mt-2">Tools and Technologies</p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10" >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+        {/* data-aos="fade-left"> */}
         {Skill.map((category, index) => (
           <div
             key={index}
@@ -48,4 +54,3 @@ const Skills = () => {
 };
 
 export default Skills;
-// data-aos="fade-left"

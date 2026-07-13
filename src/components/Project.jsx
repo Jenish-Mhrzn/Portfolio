@@ -9,6 +9,11 @@ const Project = () => {
   //   AOS.init({
   //     duration: 2000,
   //   });
+
+  //   const handleLoad = () => AOS.refresh();
+  //   window.addEventListener("load", handleLoad);
+
+  //   return () => window.removeEventListener("load", handleLoad);
   // }, []);
   return (
     <div
@@ -22,6 +27,7 @@ const Project = () => {
         Projects I've Built{" "}
       </span>
       <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* data-aos="fade-left" */}
         {Projects.map((Project, index) => (
           <div
             key={index}
@@ -71,4 +77,3 @@ const Project = () => {
 };
 
 export default Project;
-//  data-aos="fade-left"
