@@ -58,9 +58,9 @@ const Hero = () => {
         {/* right */}
         <div className="md:w-1/2 flex justify-center ">
           <img
-            src={profile}
+            src={me}
             alt=""
-            className="  rounded-xl w-80 md:w-110"
+            className="rounded-3xl w-80 md:w-110 md:mt-10"
           />
         </div>
       </div>
