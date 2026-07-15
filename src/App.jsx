@@ -13,7 +13,7 @@ const App = () => {
     <>
       <div className="bg-gradient-to-br from-slate-900 via-teal-800 to-emerald-500">
         <ToastContainer />
-        
+        <Navbar/>
         <Hero />
         <Education />
         <Skills />

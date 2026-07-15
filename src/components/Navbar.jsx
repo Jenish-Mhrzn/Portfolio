@@ -8,7 +8,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="relative p-4 z-50 sm:px-10  ">
+    <div className=" p-4 sm:px-20 lg:px-25  ">
       <div className="flex justify-between  py-2 items-center">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl text-white font-bold">
           Portfolio
