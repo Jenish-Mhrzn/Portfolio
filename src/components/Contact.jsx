@@ -145,10 +145,10 @@ const Contact = () => {
                 Name
               </label>
               <input
-                className="w-full border px-3 py-3 border-gray-600 outline-none rounded-xl mb-2 focus:border-blue-500 focus:ring-1 focus:ring-blue-50"
+                className="w-full border px-3 py-3 border-gray-600 outline-none rounded-xl mb-2 placeholder:text-xs  lg:placeholder:text-lg  focus:border-blue-500 focus:ring-1 focus:ring-blue-50"
                 type="text"
                 name="name"
-                placeholder="Enter name (example:John Doe)"
+                placeholder="Enter name (ex:John Doe)"
                 value={formValues.name}
                 onChange={handleChange}
               />
@@ -159,10 +159,10 @@ const Contact = () => {
                 Email
               </label>
               <input
-                className="w-full border px-3 py-3 border-gray-600 outline-none rounded-xl mb-2 focus:border-blue-500 focus:ring-1 focus:ring-blue-50"
+                className="w-full border px-3 py-3 placeholder:text-xs  lg:placeholder:text-lg border-gray-600 outline-none rounded-xl mb-2 focus:border-blue-500 focus:ring-1 focus:ring-blue-50"
                 type="text"
                 name="email"
-                placeholder="Enter email (example:john@gmail.com)"
+                placeholder="Enter email (ex:john@gmail.com)"
                 value={formValues.email}
                 onChange={handleChange}
               />
@@ -173,10 +173,10 @@ const Contact = () => {
                 Phone Number
               </label>
               <input
-                className="w-full border px-3 py-3 border-gray-600 outline-none rounded-xl mb-2 focus:border-blue-500 focus:ring-1 focus:ring-blue-50"
+                className="w-full border px-3 py-3 placeholder:text-xs lg:placeholder:text-lg border-gray-600 outline-none rounded-xl mb-2 focus:border-blue-500 focus:ring-1 focus:ring-blue-50"
                 type="number"
                 name="number"
-                placeholder="Enter number (example:9847346637)"
+                placeholder="Enter number (mobile or local)"
                 value={formValues.number}
                 onChange={handleChange}
               />
@@ -188,7 +188,7 @@ const Contact = () => {
               </label>
               <textarea
                 rows={5}
-                className="w-full border px-3 py-3 border-gray-600 outline-none rounded-xl mb-2 focus:border-blue-500 focus:ring-1 focus:ring-blue-50"
+                className="w-full border px-3 py-3 placeholder:text-xs  lg:placeholder:text-lg border-gray-600 outline-none rounded-xl mb-2 focus:border-blue-500 focus:ring-1 focus:ring-blue-50"
                 type="text"
                 name="message"
                 placeholder="Write your message..."
